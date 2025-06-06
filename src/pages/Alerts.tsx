@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -102,7 +101,7 @@ const Alerts = () => {
   const getPriorityColor = (priority: string) => {
     switch (priority) {
       case "alta": return "bg-red-100 text-red-800";
-      case "média": return "bg-yellow-100 text-yellow-800";
+      case "média": return "bg-legal-200 text-legal-700";
       case "baixa": return "bg-green-100 text-green-800";
       default: return "bg-gray-100 text-gray-800";
     }
